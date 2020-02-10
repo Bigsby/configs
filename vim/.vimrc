@@ -44,7 +44,6 @@ noremap   <Up>     <NOP>
 noremap   <Down>   <NOP>
 noremap   <Left>   <NOP>
 noremap   <Right>  <NOP>
-noremap   <Esc>    <NOP>
 
 set splitright
 
