@@ -1,5 +1,5 @@
 # download git promp script
-wget https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh
+wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
 
 if [ -e ~/.bashrc ]
     then
