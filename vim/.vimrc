@@ -62,4 +62,5 @@ function! ToggleNumber()
     endif
 endfunc
 
+set rtp+=~/.fzf
 
