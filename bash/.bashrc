@@ -1,5 +1,8 @@
 
 
+
+export TERM=xterm-256color
+
 alias laf="ls -AF"
 
 source ~/.git-prompt.sh
