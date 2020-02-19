@@ -1,10 +1,6 @@
 " https://dougblack.io/words/a-good-vimrc.html
 syntax enable
 set background=dark
-"colorscheme codedark
-"colorscheme molokai
-"colorscheme badwolf
-"colorscheme solarized
 
 set cursorline
 set showmatch
