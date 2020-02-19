@@ -9,4 +9,4 @@ wget https://github.com/sjl/badwolf/blob/master/colors/badwolf.vim
 popd
 
 # sudo apt install vim-gtk
-
+cp ${BASH_SOURCE%/*}/.vimrc ~/
