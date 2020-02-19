@@ -8,7 +8,7 @@ if [ -e ~/.bashrc ]
         cp ~/.bashrc ~/.bashrc_backup
 fi
 
-cat .bashrc >> ~/.bashrc
+cat ${BASH_SOURCE%/*}/.bashrc >> ~/.bashrc
 
 
 
