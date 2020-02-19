@@ -28,6 +28,7 @@ set backspace=indent,eol,start
 set autoindent
 set nostartofline
 set ruler
+set laststatus=2
 set confirm
 set showcmd
 set showmode
