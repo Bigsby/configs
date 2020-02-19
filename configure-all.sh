@@ -3,7 +3,7 @@ echo "Installing libraries"
 
 echo "Setting up bash"
 ./bash/fzf-setup.sh
-./bash/config.sh
+./bash/configure.sh
 
 echo "Setting up git"
 ./git/git-config.sh
@@ -13,4 +13,6 @@ echo "Setting up tmux"
 
 echo "Setting up vim"
 ./vim/vim-config.sh
+
+source ~/.bashrc
 
