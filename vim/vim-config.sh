@@ -8,5 +8,5 @@ wget https://raw.githubusercontent.com/tomasiser/vim-code-dark/master/colors/cod
 wget https://github.com/sjl/badwolf/blob/master/colors/badwolf.vim
 popd
 
-sudo apt install vim-gtk
+# sudo apt install vim-gtk
 
