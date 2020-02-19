@@ -1,2 +1,2 @@
 # configs
-My "portable" configurations
+My "portable" configurations for Debian working machine.
