@@ -2,7 +2,7 @@
 syntax enable
 set background=dark
 "colorscheme codedark
-colorscheme molokai
+"colorscheme molokai
 "colorscheme badwolf
 "colorscheme solarized
 
