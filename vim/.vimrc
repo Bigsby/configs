@@ -44,6 +44,9 @@ noremap   <Right>  <NOP>
 set splitright
 set splitbelow
 
+noremap <Tab> gt
+noremap <S-Tab> gT
+
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swp//
 set undofile
