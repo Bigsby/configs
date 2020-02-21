@@ -1,5 +1,4 @@
-# download git promp script
-# wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
+${BASH_SOURCE%/*}/fzf-setup.sh
 
 cp ${BASH_SOURCE%/*}/.git-prompt.sh ~/
 
