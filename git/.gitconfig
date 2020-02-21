@@ -18,7 +18,7 @@
 [mergetool]
 	keepbackup = false
 	prompt = false
-[diff "hex"]
+[diff "bin"]
 	textconv = hexdump -C
 	binary = true
 [core]
