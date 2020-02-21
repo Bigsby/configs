@@ -3,14 +3,14 @@ echo "Installing libraries.................................................."
 
 echo "Setting up bash......................................................."
 ./bash/fzf-setup.sh
-./bash/configure.sh
+./bash/configure
 
 echo "Setting up git......................................................."
-./git/git-config.sh
+./git/configure
 
 echo "Setting up tmux......................................................."
-./tmux/configure.sh
+./tmux/configure
 
 echo "Setting up vim......................................................."
-./vim/vim-config.sh
+./vim/configure
 
