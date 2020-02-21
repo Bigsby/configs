@@ -9,5 +9,5 @@ git clone https://github.com/bigsby/configs
 
 echo "Running config....................................................."
 cd configs
-./configure-all.sh
+./configure-all
 
