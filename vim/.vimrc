@@ -42,6 +42,7 @@ noremap   <Left>   <NOP>
 noremap   <Right>  <NOP>
 
 set splitright
+set splitbelow
 
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swp//
