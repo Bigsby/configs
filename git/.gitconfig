@@ -1,13 +1,15 @@
 [alias]
-	co = checkout
 	br = branch
-	ci = commit
+	bra = branch --all
 	st = status
-	graph = log --oneline --graph
-	cm = commit -m
-	unstage = reset HEAD --
-	aa = add .
 	ss = status --short
+	graph = log --oneline --graph --all
+	aa = add .
+	ci = commit
+	cm = commit -m
+	mffo = merge --ff-only
+	co = checkout	
+	unstage = reset HEAD --
 [merge]
 	tool = vimdiff
 	conflictstyle = diff3
@@ -16,3 +18,9 @@
 [mergetool]
 	keepbackup = false
 	prompt = false
+[diff "hex"]
+	textconv = hexdump -C
+	binary = true
+[core]
+	attributesfile = ~/.gitattributes
+	
