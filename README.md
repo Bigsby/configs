@@ -1,19 +1,19 @@
 # configs
 My "portable" configurations for Debian working machine.
 
-## to run
+## if sudo is not installed
 ```
-wget https://raw.githubusercontent.com/bigsby/configs/master/start.sh
-chmod +x start.sh
-./start.sh
+wget https://raw.githubusercontent.com/bigsby/configs/master/install-sudo.sh
+chmod +x install-sudo.sh
+./install-sudo.sh
 ```
 
 Log out and log in for sudo to take effect.
 
 ```
-wget https://raw.githubusercontent.com/bigsby/configs/master/continue.sh
-chmod +x continue.sh
-./continue.sh
+wget https://raw.githubusercontent.com/bigsby/configs/master/setup.sh
+chmod +x setup.sh
+./setup.sh
 ```
 
 add to beginning of .bashrc
