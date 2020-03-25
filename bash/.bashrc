@@ -6,6 +6,7 @@ export TERM=xterm-256color
 alias laf="ls -AF"
 alias lafl="ls -AFl"
 alias tmuxa="tmux attach-session -t "
+alias xclipboard="xclip -selection clipboard"
 
 source ~/.git-prompt.sh
 PROMPT_COMMAND='__posh_git_ps1 "\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]" "\\\$ ";'
