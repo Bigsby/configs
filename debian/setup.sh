@@ -8,6 +8,6 @@ cd git
 git clone https://github.com/bigsby/configs
 
 echo "Running config....................................................."
-cd configs
+cd configs/debian
 ./configure-all
 
