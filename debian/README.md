@@ -1,5 +1,5 @@
-# configs
-My "portable" configurations for Debian-based working machine.
+# Debian-based Systems
+Configurations for Debian-based working machine.
 
 ## if sudo is not installed
 ```
